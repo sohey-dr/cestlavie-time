@@ -1,0 +1,22 @@
+<div class="text-center">
+  <h1 class="mt-4">2日目</h1>
+  <% n = 11 %>
+  <% for second in seconds do %>
+    <h3 class="mt-4"><%= n %> ： <%= second %></h3>
+    <div class="col-12">
+      <div class="">
+        <% for band in @bands do %>
+          <% if band.order == n %>
+            <%= band.name %><br>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <% n += 1 %>
+  <% end %>
+  <%
+=begin%>
+ <%= render 'layouts/apply'%> 
+<%
+=end%>
+</div>
