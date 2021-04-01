@@ -60,3 +60,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # 設定ファイル
 gem 'ridgepole'
+
+# 管理画面
+gem 'activeadmin'
+gem 'devise'
