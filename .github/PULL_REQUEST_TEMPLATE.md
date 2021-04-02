@@ -1,5 +1,5 @@
 ### issue
-close to #
+close #
 
 #### タスク
 - [ ] 
