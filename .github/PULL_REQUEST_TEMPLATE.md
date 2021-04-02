@@ -1,5 +1,5 @@
-### 関連issue
-Connected to #
+### issue
+close to #
 
 #### タスク
 - [ ] 
