@@ -1,0 +1,6 @@
+create_table "bands", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC", comment: "バンド管理用テーブル" do |t|
+     t.string "name", null: false, comment: "バンド名"
+     t.integer "order", null: false, comment: "順番"
+     t.datetime "created_at", null: false
+     t.datetime "updated_at", null: false
+end
