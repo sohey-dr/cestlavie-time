@@ -1,0 +1,6 @@
+create_table "band_members", force: :cascade, comment: "バンドとメンバーの中間テーブル" do |t|
+     t.integer "band_id", comment: "bandテーブルの外部キー"
+     t.integer "member_id", comment: "memberテーブルの外部キー"
+     t.datetime "created_at", null: false
+     t.datetime "updated_at", null: false
+end

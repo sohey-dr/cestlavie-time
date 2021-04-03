@@ -61,3 +61,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # 設定ファイル
 gem 'ridgepole'
 gem 'rails_admin', '~> 2.0'
+gem 'enumerize'
