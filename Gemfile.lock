@@ -79,6 +79,8 @@ GEM
     concurrent-ruby (1.1.8)
     crass (1.0.6)
     diffy (3.4.0)
+    enumerize (2.4.0)
+      activesupport (>= 3.2)
     erubi (1.10.0)
     ffi (1.14.2)
     globalid (0.4.2)
@@ -251,6 +253,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  enumerize
   jbuilder (~> 2.7)
   listen (~> 3.2)
   pg
