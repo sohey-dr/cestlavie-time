@@ -1,4 +1,4 @@
-create_table "members", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC", comment: "サークルに所属している人たちの管理" do |t|
+create_table "members", force: :cascade, comment: "サークルに所属している人たちの管理" do |t|
      t.string "name", null: false, comment: "人の名前"
      t.integer "type", null: false, comment: "属性(正規、OB、他サークルかなど)"
      t.datetime "created_at", null: false
