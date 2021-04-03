@@ -1,1 +1,2 @@
 require "bands.schema"
+require "members.schema"
