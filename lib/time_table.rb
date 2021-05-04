@@ -1,6 +1,3 @@
-require 'active_support/time'
-
-
 # class TimeTable
 #   attr_reader :time, :band_num
 #   # attr_writer :time
