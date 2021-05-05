@@ -42,3 +42,5 @@ yarn-debug.log*
 
 /vendor
 .DS_Store
+
+.env
