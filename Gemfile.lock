@@ -192,6 +192,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redis (4.2.5)
+    redis-namespace (1.8.1)
+      redis (>= 3.0.4)
     regexp_parser (2.0.3)
     remotipart (1.4.4)
     ridgepole (0.9.0)
@@ -276,6 +278,7 @@ DEPENDENCIES
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   rails_admin (~> 2.0)
+  redis-namespace
   ridgepole
   sass-rails (>= 6)
   selenium-webdriver
