@@ -68,3 +68,6 @@ gem 'dotenv-rails'
 gem 'redis-namespace'
 gem 'sidekiq'
 gem 'sinatra', require: false
+
+# クロスドメイン対策
+gem 'rack-cors'
