@@ -2,6 +2,7 @@ module Api
   module V1
     class MembersController < ApplicationController
       protect_from_forgery
+      skip_before_action :verify_authenticity_token
 
       def login
         member = Member.find_by(name: params[:name])
