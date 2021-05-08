@@ -1,0 +1,1 @@
+release: bundle exec ridgepole -c config/database.for.heroku.ridgepole.yml -E production -f Schemafile --apply
